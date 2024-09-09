@@ -1,4 +1,4 @@
-import UseRefExample from '../UseRefExample'
+import UseRefExample from './UseRefExample'
 import Nav from '../Nav'
 
 const UseRef = () => {

@@ -1,4 +1,3 @@
-import React from 'react'
 import useFetchUsers from './useFetchUsers'
 
 const UserList = () => {
