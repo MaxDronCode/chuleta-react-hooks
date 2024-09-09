@@ -1,4 +1,4 @@
-import React, { useState, useDeferredValue } from 'react'
+import { useState, useDeferredValue } from 'react'
 
 const generateItems = (num) => {
   const items = []

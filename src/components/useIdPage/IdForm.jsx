@@ -1,4 +1,4 @@
-import React, { useId } from 'react'
+import { useId } from 'react'
 
 const IdForm = () => {
   const nameId = useId() // Genera un ID único para el campo 'name'

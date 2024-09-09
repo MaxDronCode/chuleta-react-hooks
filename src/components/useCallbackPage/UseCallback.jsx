@@ -1,6 +1,6 @@
-import WithoutUseCallback from './WithoutUseCallback'
-import WithUseCallback from './WithUseCallback'
-import Nav from './Nav.jsx'
+import WithoutUseCallback from './WithoutUseCallback.jsx'
+import WithUseCallback from './WithUseCallback.jsx'
+import Nav from '../Nav.jsx'
 
 const UseCallback = () => {
   return (

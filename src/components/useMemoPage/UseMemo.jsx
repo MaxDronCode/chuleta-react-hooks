@@ -1,7 +1,6 @@
-import React from 'react'
-import WithoutUseMemo from './WithoutUseMemo'
-import WithUseMemo from './WithUseMemo'
-import Nav from './Nav.jsx'
+import WithoutUseMemo from './WithoutUseMemo.jsx'
+import WithUseMemo from './WithUseMemo.jsx'
+import Nav from '../Nav.jsx'
 const UseMemo = () => {
   return (
     <div>

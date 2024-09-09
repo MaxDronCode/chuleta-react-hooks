@@ -1,5 +1,5 @@
-import Nav from './Nav.jsx'
-import LargeList from './LargeList'
+import Nav from '../Nav.jsx'
+import LargeList from './LargeList.jsx'
 
 const UseTransition = () => {
   return (

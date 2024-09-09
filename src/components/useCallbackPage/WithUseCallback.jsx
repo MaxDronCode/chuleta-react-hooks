@@ -17,9 +17,12 @@ const WithUseCallback = () => {
 
   return (
     <div>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <Button onIncrement={increment} /><br />
-        <p>Contador: {count}</p>
+      <div style={{ border: '2px solid #333', borderRadius: '8px', padding: '10px', margin: '10px auto', width: '50%' }}>
+        <p style={{ fontWeight: 'bold' }}>Componente Hijo</p>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
+          <Button onIncrement={increment} /><br />
+          <p>Contador: {count}</p>
+        </div>
       </div>
 
       <input

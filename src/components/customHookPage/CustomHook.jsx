@@ -1,6 +1,5 @@
-import React from 'react'
-import Nav from './Nav.jsx'
-import UserList from './UserListWithCustomHook.jsx'
+import Nav from '../Nav.jsx'
+import UserList from '../UserListWithCustomHook.jsx'
 
 const UseCustomHook = () => {
   return (

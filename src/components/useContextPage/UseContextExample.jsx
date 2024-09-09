@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
 import { ThemeContext } from './UseContext'
+import { useContext } from 'react'
 import './UseContextExample.css'
 
 const UseContextExample = () => {

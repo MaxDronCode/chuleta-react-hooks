@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState, useMemo } from 'react'
 
 const expensiveCalculation = (num) => {
   for (let i = 0; i < 5000; i++) {
@@ -7,15 +7,15 @@ const expensiveCalculation = (num) => {
   return num * 2
 }
 
-const WithoutUseMemo = () => {
+const WithUseMemo = () => {
   const [count, setCount] = useState(0)
   const [inputValue, setInputValue] = useState('')
 
-  const result = expensiveCalculation(count)
+  const memoizedResult = useMemo(() => expensiveCalculation(count), [count])
 
   return (
     <div>
-      <p>Resultado del cálculo costoso: {result}</p>
+      <p>Resultado del cálculo costoso (con useMemo): {memoizedResult}</p>
       <button onClick={() => setCount(count + 1)}>Incrementar contador</button>
       <p>Contador: {count}</p>
 
@@ -30,4 +30,4 @@ const WithoutUseMemo = () => {
   )
 }
 
-export default WithoutUseMemo
+export default WithUseMemo

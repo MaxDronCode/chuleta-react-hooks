@@ -1,6 +1,5 @@
-import React from 'react'
-import UseRefExample from './UseRefExample'
-import Nav from './Nav'
+import UseRefExample from '../UseRefExample'
+import Nav from '../Nav'
 
 const UseRef = () => {
   return (

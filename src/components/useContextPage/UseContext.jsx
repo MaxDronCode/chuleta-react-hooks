@@ -1,5 +1,5 @@
-import React, { createContext, useState } from 'react'
-import Nav from './Nav'
+import { createContext, useState } from 'react'
+import Nav from '../Nav'
 import UseContextExample from './UseContextExample'
 
 export const ThemeContext = createContext()
@@ -28,7 +28,7 @@ const UseContext = () => {
       <section>
         <h1>Ejemplo</h1>
         <p style={{ color: '#747bff', fontWeight: 'bold' }}>
-          Haz clic en el botón para alternar entre los temas "dark" y "light".
+          Haz clic en el botón para alternar entre los temas 'dark' y 'light'.
         </p>
         <button onClick={toggleTheme}>
           Cambiar tema (Actual: {theme})

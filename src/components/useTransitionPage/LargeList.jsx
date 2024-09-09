@@ -1,4 +1,4 @@
-import React, { useState, useTransition } from 'react'
+import { useState, useTransition } from 'react'
 
 const generateItems = (num) => {
   const items = []

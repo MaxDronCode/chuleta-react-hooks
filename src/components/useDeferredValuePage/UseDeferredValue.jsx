@@ -1,6 +1,5 @@
-import React from 'react'
-import Nav from './Nav.jsx'
-import DeferredSearch from './DeferredSearch'
+import Nav from '../Nav.jsx'
+import DeferredSearch from './DeferredSearch.jsx'
 
 const UseDeferredValue = () => {
   return (

@@ -1,6 +1,5 @@
-import React from 'react'
-import Nav from './Nav.jsx'
-import IdForm from './IdForm'
+import Nav from '../Nav.jsx'
+import IdForm from './IdForm.jsx'
 
 const UseId = () => {
   return (
