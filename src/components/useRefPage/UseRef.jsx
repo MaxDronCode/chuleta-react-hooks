@@ -17,7 +17,7 @@ const UseRef = () => {
         <UseRefExample />
         <p>En el ejemplo anterior:</p>
         <ul style={{ listStyle: 'none' }}>
-          <li><b>El botón</b> de "Enfocar el input" <b>utiliza una referencia</b> para acceder directamente al campo de texto y poner el foco en él.</li>
+          <li><b>El botón</b> de &quot;Enfocar el input&quot; <b>utiliza una referencia</b> para acceder directamente al campo de texto y poner el foco en él.</li>
           <li>El contador de renderizados usa una referencia para contar cuántas veces se ha renderizado el componente, pero sin causar re-renderizados innecesarios.</li>
         </ul>
       </section>
